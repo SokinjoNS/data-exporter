@@ -8,6 +8,7 @@ setup(
     description="A module for exporting email data to CSV format.",
     long_description=open('README.md').read(),
     url="https://github.com/SokinjoNS/data-exporter",
+    project_urls":{"Source":"https://github.com/SokinjoNS/data-exporter"},
     packages=find_packages(),
     install_requires=[
         'gmail-message-processor>=0.1.1',
