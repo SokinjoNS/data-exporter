@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="data-exporter",
-    version="0.1.2",
+    version="0.1.3",
     author="SokinjoNS",
     author_email="sokinjo.155@gmail.com",
     description="A module for exporting email data to CSV format.",
@@ -10,7 +10,7 @@ setup(
     url="https://github.com/SokinjoNS/data-exporter",
     packages=find_packages(),
     install_requires=[
-        'gmail-message-processor>=0.1.2',
+        'gmail-message-processor>=0.1.3',
     ],
     project_urls={
         "GitHub": "https://github.com/SokinjoNS/data-exporter",
