@@ -22,7 +22,7 @@ No additional Python packages are required specifically for data_exporter, but e
 
 ## Usage
 
-To use the data_exporter module, import it into your Python script where you're processing Gmail data. Here's a simple example that demonstrates how to export a list of email addresses:
+To use the `data_exporter` module, import it into your Python script where you're processing Gmail data. Here's a simple example that demonstrates how to export a list of email addresses:
 
 ```bash
 from data_exporter import export_emails_to_csv
